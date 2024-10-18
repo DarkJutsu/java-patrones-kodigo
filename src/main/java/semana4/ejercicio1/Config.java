@@ -6,14 +6,14 @@ public class Config {
     private String configGeneral;
     private int time;
 
-    private Config(){
-        this.configGeneral="Configuracion por defecto";
-        this.time=30;
+    private Config() {
+        this.configGeneral = "Configuracion por defecto";
+        this.time = 30;
     }
 
-    public static Config getInstancia(){
+    public static Config getInstancia() {
         if (instancia == null) {
-            instancia =new Config();
+            instancia = new Config();
         }
         return instancia;
     }
