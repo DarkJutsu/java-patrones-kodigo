@@ -1,4 +1,4 @@
-package semana4.ejercicio1;
+package singleton.ejercicio1;
 
 public class Main {
     public static void main(String[] args) {
